@@ -2,6 +2,7 @@
 这是个一个示例，演示 ajax 加载的今日头条的新闻数据
 """
 from scrapy import Spider, Request, Selector
+from scrapy.conf import settings
 
 
 class JinRiTouTiaoSpider(Spider):
@@ -9,7 +10,7 @@ class JinRiTouTiaoSpider(Spider):
 
     def start_requests(self):
         url = "https://www.toutiao.com/"
-        yield Request("http://localhost:8050/render.html?url={}".format(url), callback=self.parse)
+        yield Request("http://{}:8050/render.html?url={}".format(settings["SPLASH_URL"], url), callback=self.parse)
 
     def parse(self, response):
         data = []

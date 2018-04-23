@@ -3,6 +3,7 @@
 """
 
 from scrapy import Spider, Request, Selector
+from scrapy.conf import settings
 
 
 class JingDongSpider(Spider):
@@ -12,7 +13,7 @@ class JingDongSpider(Spider):
     def start_requests(self):
         url = "https://list.jd.com/list.html?cat=9987,653,655"
 
-        yield Request("http://localhost:8050/render.html?url={}".format(url), callback=self.parse)
+        yield Request("http://{}:8050/render.html?url={}".format(settings["SPLASH_URL"], url), callback=self.parse)
 
     def parse(self, response):
         data = []

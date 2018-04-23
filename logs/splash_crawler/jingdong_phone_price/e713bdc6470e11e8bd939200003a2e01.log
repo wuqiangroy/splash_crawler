@@ -1,0 +1,174 @@
+2018-04-23 23:56:39 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: splash_crawler)
+2018-04-23 23:56:39 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.3 (default, Oct 31 2017, 22:55:28) - [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.38)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Darwin-17.5.0-x86_64-i386-64bit
+2018-04-23 23:56:39 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'splash_crawler', 'LOG_FILE': 'logs/splash_crawler/jingdong_phone_price/e713bdc6470e11e8bd939200003a2e01.log', 'NEWSPIDER_MODULE': 'splash_crawler.spiders', 'SPIDER_MODULES': ['splash_crawler.spiders']}
+2018-04-23 23:56:39 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-04-23 23:56:39 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-04-23 23:56:39 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-04-23 23:56:39 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-04-23 23:56:39 [scrapy.core.engine] INFO: Spider opened
+2018-04-23 23:56:39 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-04-23 23:56:39 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-04-23 23:56:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655> (referer: None)
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'荣耀9 全网通 尊享版 6GB+128GB 魅海蓝 移动联通电信4G手机 双卡双待': '2799.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'华为 HUAWEI P20 Pro 全面屏徕卡三摄 6GB +128GB 亮黑色 全网通版 移动联通电信4G手机 双卡双待': '5488.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'华为 HUAWEI P10 Plus 6GB+64GB 曜石黑 移动联通电信4G手机 双卡双待': '3188.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'荣耀 畅玩6 2GB+16GB 金色 全网通4G手机 双卡双待': '599.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'华为 HUAWEI Mate 10 6GB+128GB 香槟金 移动联通电信4G手机 双卡双待': '4199.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'华为 畅享6 金色 移动联通电信4G手机 双卡双待': '749.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'华为 HUAWEI P20 AI智慧全面屏 6GB +64GB 宝石蓝 全网通版 移动联通电信4G手机 双卡双待': '3788.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'小米 红米5 Plus 全面屏手机 全网通版 3GB+32GB 黑色 移动联通电信4G手机 双卡双待': '999.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'Apple iPhone 6s Plus (A1699) 32G 金色 移动联通电信4G手机': '3399.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'新诺基亚（NOKIA）105 黑色 直板按键 移动联通2G手机 老人手机 学生备用功能机': '129.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'Apple iPhone 7 (A1660) 128G 黑色 移动联通电信4G手机': '4599.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'Apple iPhone X (A1865) 64GB 银色 移动联通电信4G手机': '8388.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'华为 畅享6S 金色 移动联通电信4G手机 双卡双待': '899.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'小辣椒 红辣椒S6 18:9全面屏 人脸识别 微信八开 移动联通电信4G全网通 双卡双待 胭脂金': '858.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'Apple iPhone 8 Plus (A1864) 64GB 金色 移动联通电信4G手机': '6688.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'Apple iPhone 7 Plus (A1661) 128G 玫瑰金色 移动联通电信4G手机': '5599.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'华为畅享7 3GB+32GB 香槟金 移动联通电信4G手机 双卡双待': '999.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'华为 HUAWEI P10 全网通 4GB+64GB 曜石黑 移动联通电信4G手机 双卡双待': '2988.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'小米 红米Note4X 全网通版 4GB+64GB 磨砂黑 移动联通电信4G手机': '1199.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'荣耀畅玩7C 全面屏手机 全网通标配版 3GB+32GB 极光蓝 移动联通电信4G手机 双卡双待': '899.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'华为畅享7 Plus 4GB+64GB 香槟金 移动联通电信4G手机 双卡双待': '1499.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'Apple iPhone 6 32GB 金色 移动联通电信4G手机': '2099.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'小米MIX2S 全面屏游戏手机8GB+256GB 黑色 全网通4G 陶瓷手机': '3999.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'小米 红米 4A 移动合约版 2GB内存 16GB ROM 香槟金色 移动联通电信4G手机 双卡双待': '599.90'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'小米 红米 4X 全网通版 2GB+16GB 香槟金 移动联通电信4G手机': '699.90'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'小米 红米5A 全网通版 3GB+32GB 香槟金 移动联通电信4G手机 双卡双待': '699.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'华为 麦芒5 全网通 4GB+64GB版 香槟金 移动联通电信4G手机 双卡双待': '1399.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'小米6 全网通 4GB+64GB 亮蓝色 移动联通电信4G手机 双卡双待': '2299.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'小米MIX2 全面屏游戏手机 6GB+64GB 黑色 全网通4G手机 双卡双待': '3099.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'魅族 魅蓝5s 全网通公开版 3GB+16GB 香槟金 移动联通电信4G手机 双卡双待': '599.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'华为 G9 青春版 白色 移动联通电信4G手机 双卡双待': '849.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'努比亚 nubia 红魔 全面屏 游戏手机 8GB+128GB 曜石黑 移动联通电信4G手机 双卡双待': '2999.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'华为 HUAWEI nova 4GB+64GB版 香槟金（白）移动联通电信4G手机 双卡双待': '1399.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'vivo X21 全面屏 双摄美颜拍照手机 6GB+128GB 冰钻黑 移动联通电信全网通4G手机 双卡双待': '3198.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'荣耀9青春版 全网通 标配版 3GB+32GB 幻夜黑 移动联通电信4G全面屏手机 双卡双待': '1099.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'荣耀 V10 高配版 6GB+64GB 幻夜黑 移动联通电信4G全面屏游戏手机 双卡双待': '2799.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'Apple iPhone 8 (A1863) 64GB 金色 移动联通电信4G手机': '5788.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'小米Max2 大屏手机 4GB+64GB 金色 全网通4G手机 双卡双待': '1499.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'华为 HUAWEI nova 青春版 4GB+64GB 樱语粉 移动联通电信4G手机 双卡双待': '1499.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'华为畅享8 Plus 高清四摄大电池 4G+64G 金色 全网通版 移动联通电信4G手机 双卡双待': '1699.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'魅族 15 全面屏手机 全网通公开版 4GB+64GB 砚黑 移动联通电信4G手机 双卡双待': '2499.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'荣耀 畅玩7X 4GB+32GB 全网通4G全面屏手机 标配版 铂光金': '1249.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'华为畅享8 全面屏三卡槽 4GB+64GB 金色 全网通高配版 移动联通电信4G手机 双卡双待': '1499.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'华为 Mate 9 Pro 4GB+64GB版 银钻灰 移动联通电信4G手机 双卡双待': '3099.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'小米Note3 美颜双摄拍照手机 6GB+64GB 黑色 全网通4G手机 双卡双待': '2099.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'华为 HUAWEI nova 2 4GB+64GB 曜石黑 移动联通电信4G手机 双卡双待': '1799.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'华为 麦芒5 全网通 3GB+32GB版 香槟金 移动联通电信4G手机 双卡双待': '1299.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'锤子 坚果Pro 128GB 细红线特别版 全网通 移动联通电信4G手机 双卡双待': '1699.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'华为 HUAWEI Mate 10 Pro 全网通 6GB+128GB 银钻灰 移动联通电信4G手机 双卡双待': '4999.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'OPPO R15 全面屏双摄拍照手机 4G+128G 星空紫 全网通 移动联通电信4G 双卡双待手机': '2699.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'小米 红米Note5 全网通版 4GB+64GB 黑色 移动联通电信4G手机 双卡双待': '1399.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'小米（MI） 小米4A 红米4A 4G手机 香槟金 公开全网通(2G RAM+16G ROM)': '549.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'小米Note2 曲面屏指纹识别手机 4GB+64GB 亮银黑 全网通4G手机 双卡双待': '2099.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'魅族 PRO6S 4GB+64GB 全网通公开版 香槟金 移动联通电信4G手机 双卡双待': '1299.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'华为 HUAWEI nova 3e全面屏2400万前置摄像 4GB +128GB 幻夜黑全网通版 移动联通电信4G手机 双卡双待': '2199.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'小米（MI） 小米4A 红米4A 4G手机 金色 公开全网通(2G+16G)': '541.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'锤子（smartisan） 坚果 3 4G+32GB 碳黑色 全面屏双摄  全网通4G手机 双卡双待': '1299.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'魅族 魅蓝X 3GB+32GB 全网通公开版 珠光白 移动联通电信4G手机 双卡双待': '899.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'小米（MI） 小米6手机 亮蓝 全网通（6G RAM+128G ROM）标配': '3099.00'}
+2018-04-23 23:56:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://localhost:8050/render.html?url=https://list.jd.com/list.html?cat=9987,653,655>
+{'三星 Galaxy S9+（SM-G9650/DS）6GB+128GB 谜夜黑 移动联通电信4G手机 双卡双待': '6999.00'}
+2018-04-23 23:56:42 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-04-23 23:56:42 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 270,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 489262,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 4, 23, 15, 56, 42, 149039),
+ 'item_scraped_count': 60,
+ 'log_count/DEBUG': 62,
+ 'log_count/INFO': 7,
+ 'memusage/max': 54095872,
+ 'memusage/startup': 54091776,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2018, 4, 23, 15, 56, 39, 193641)}
+2018-04-23 23:56:42 [scrapy.core.engine] INFO: Spider closed (finished)

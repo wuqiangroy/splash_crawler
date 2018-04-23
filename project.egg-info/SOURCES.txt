@@ -1,0 +1,15 @@
+README.md
+setup.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
+splash_crawler/__init__.py
+splash_crawler/items.py
+splash_crawler/middlewares.py
+splash_crawler/pipelines.py
+splash_crawler/settings.py
+splash_crawler/spiders/__init__.py
+splash_crawler/spiders/jingdong.py
+splash_crawler/spiders/jingritoutiao.py

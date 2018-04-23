@@ -23,5 +23,6 @@ execute command:
 #### step 4
 - shut down scrapyd
 - shut down spiderkeeper
+
 then:
 `docker-compose up`

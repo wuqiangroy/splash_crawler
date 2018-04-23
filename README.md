@@ -21,7 +21,7 @@ execute command:
 - username and password is `admin`
 - create a new project and choose output.egg file from step 1 we created
 #### step 4
-shut down scrapyd
-shut down spiderkeeper
-the:
+- shut down scrapyd
+- shut down spiderkeeper
+then:
 `docker-compose up`

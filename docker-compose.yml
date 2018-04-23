@@ -2,11 +2,11 @@ version: '2'
 services:
     splash:
         image: 'scrapinghub/splash'
-        port:
+        ports:
             - "8050:8050"
     scrapy:
         build: .
-        port:
+        ports:
             - "5000:5000"
-        link:
+        links:
             - splash

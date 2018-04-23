@@ -17,9 +17,9 @@ execute command:
 - `scrapyd`
 - `spiderkeeper`
 #### step 3
-visit `localhost:5000`
-username and password is `admin`
-create a new project and choose output.egg file from step 1 we created    
+- visit `localhost:5000`
+- username and password is `admin`
+- create a new project and choose output.egg file from step 1 we created
 #### step 4
 shut down scrapyd
 shut down spiderkeeper
